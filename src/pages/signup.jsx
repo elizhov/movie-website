@@ -3,7 +3,7 @@ import validations from "../helpers/validations.js";
 import { UserOutlined, EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import { Input, Space, Layout} from 'antd';
 
-const SignUp = () => {
+const Signup = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [username, setUsername] = useState("");
@@ -68,4 +68,4 @@ const SignUp = () => {
     );
 };
 
-export default SignUp;
+export default Signup;
